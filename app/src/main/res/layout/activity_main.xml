@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/student_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Enter Student Information" />
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/id_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="ID" />
+
+        <EditText
+            android:id="@+id/phone_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="PHONE"/>
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/view_saved_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Saved Details" />
+
+        <TextView
+            android:id="@+id/saved_details_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saved Details" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
